@@ -6,7 +6,6 @@ use dbcontatos;
 
 create table tbFormulario(
     idForm int not null auto_increment,
-    nome varchar(100) not null,
     email varchar(100) not null,
     telCel char(9) not null,
     mensagem text,
